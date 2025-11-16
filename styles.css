@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+.header {
+    background: #4e6ef2;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.posts-container {
+    display: grid;
+    gap: 10px;
+}
+
+.post {
+    padding: 15px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Модалка */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    animation: fade 0.3s ease-in-out;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@keyframes fade {
+    from { opacity: 0; transform: scale(0.9); }
+    to   { opacity: 1; transform: scale(1); }
+}
