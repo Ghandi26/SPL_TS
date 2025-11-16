@@ -1,0 +1,23 @@
+{
+  "name": "pr2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghandi26/SPL_TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghandi26/SPL_TS/issues"
+  },
+  "homepage": "https://github.com/Ghandi26/SPL_TS#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
